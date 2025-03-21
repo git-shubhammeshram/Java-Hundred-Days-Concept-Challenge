@@ -1,0 +1,52 @@
+1.Which features does Java have to make it platform-independent?
+Basically javac complile the code and generate the byte code file, which can be used any other platform but the JVM is a platform dependent
+
+
+
+2.What is JVM, JRE, JDK
+Java virtual machine(JVM) is specification or formuladted documentation how to write a program, how to generate a byte code, how to load bytecode, how to execute bytecode, how to verify bytecode.
+
+JRE(Java Runtime Envorinment) Combination of jvm and libraries that means all the documented files are impeleneted into the libraries.
+
+JDK(Java Developmenet Tool) Is a complete software havaing JVM,JRE.Libraries and Javac thats helps to generate a java code, In short it is combinations of all the documations, soruce files, libraries and compiler.
+
+
+3.What is main features of Java
+
+1.Memory Management - Java has a garbage collectors, that works automatically,  when the objects is not pointed any references or null at that moment garbage collect remove the object.
+2.Pointer - Java handled the pointers impliciatly we dont need to handle it.
+3.Platform Independent - After the compilation of source code we can bytecode run any other platforms.
+4.Object Oriented lanagauge
+
+4.How many time we can re-write a main method?
+
+public static void main(String[] args)
+public static void main(String []args)
+public static void main(String[] array)
+public static void main(String... args)
+
+5.What is the use of String[] arg in main method
+
+We can pass the extrenally values accroding to need
+
+6.Why Java is not purely object orieneted langauge
+Becouse primitive variables, static memener that is not belong to object, but has a features wrapper classes using that we can used primitive variables as objects.
+
+7.What is type-casting?
+
+Convert the values into another types of data, having a 2 types - Implicilty (Perform a automatically type casting means that small type values convereted into large type of values).
+                                                                  Explicitaly(Perform forcefully type casting that more chances to data losses).
+
+int x = 10;
+double = x;
+
+double ref = (int) 10.55;
+
+8.What is data trucation?
+
+losses of data while type casting the larger size data into lower size of data types.
+
+
+
+
+
